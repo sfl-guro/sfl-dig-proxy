@@ -1,0 +1,11 @@
+name = "sfl-dig-proxy"
+main = "sfl-dig-proxy.js"
+compatibility_date = "2025-01-01"
+
+[[durable_objects.bindings]]
+name = "FARM_GATE"
+class_name = "FarmGate"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["FarmGate"]
